@@ -71,7 +71,7 @@ export default defineConfig({
     jsxFragment: 'Fragment',
     jsxInject: `import { h, Fragment } from 'preact'`
   },
-  plugins: [preact(), noparse() , WindiCSS()],
+  plugins: [preact(), noparse(), WindiCSS()],
   resolve: {
     alias: {
       react: 'preact/compat',
