@@ -15,7 +15,7 @@
   "author": {
     "name": "Rintaro Itokawa",
     "email": "me@re-taro.dev",
-    "url": "https://re-taro.dev"
+    "url": "https://www.re-taro.dev"
   },
   "scripts": {
     "build": "tsc --noEmit && vite build",
