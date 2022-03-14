@@ -10,7 +10,7 @@ specifiers:
   lint-staged: 12.3.5
   preact: ^10.6.6
   prettier: 2.5.1
-  rollup: 2.70.0
+  rollup: 2.70.1
   typescript: 4.6.2
   vite: 2.8.6
   vite-plugin-windicss: 1.8.3
@@ -29,7 +29,7 @@ devDependencies:
   husky: 7.0.4
   lint-staged: 12.3.5
   prettier: 2.5.1
-  rollup: 2.70.0
+  rollup: 2.70.1
   typescript: 4.6.2
   vite: 2.8.6
   vite-plugin-windicss: 1.8.3_vite@2.8.6
@@ -4797,8 +4797,8 @@ packages:
       glob: 7.2.0
     dev: true
 
-  /rollup/2.70.0:
-    resolution: {integrity: sha512-iEzYw+syFxQ0X9RefVwhr8BA2TNJsTaX8L8dhyeyMECDbmiba+8UQzcu+xZdji0+JQ+s7kouQnw+9Oz5M19XKA==}
+  /rollup/2.70.1:
+    resolution: {integrity: sha512-CRYsI5EuzLbXdxC6RnYhOuRdtz4bhejPMSWjsFLfVM/7w/85n2szZv6yExqUXsBdz5KT8eoubeyDUDjhLHEslA==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -5487,7 +5487,7 @@ packages:
       esbuild: 0.14.25
       postcss: 8.4.8
       resolve: 1.22.0
-      rollup: 2.70.0
+      rollup: 2.70.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
