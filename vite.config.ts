@@ -54,7 +54,8 @@ export default defineConfig({
         chunkFileNames: is_production ? 'assets/[hash].js' : 'assets/[name]-[hash].js',
         entryFileNames: 'assets/[name].[hash].js',
         manualChunks: {
-          vendor: ['preact']
+          vendor: ['preact'],
+          tailwind: ['tailwindcss', 'postcss', 'autoprefixer']
         }
       }
     },
